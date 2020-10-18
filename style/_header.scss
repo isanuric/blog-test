@@ -1,0 +1,20 @@
+@mixin flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  @include flexCenter();
+  background: $backgroundColor;
+  color: $textColor;
+
+  img {
+    @include flexCenter();
+  }
+
+  background: {
+    image: url("../images/p09.jpg");
+  }
+}
