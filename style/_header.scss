@@ -7,7 +7,6 @@
 
 header {
   @include flexCenter();
-  background: $backgroundColor;
   color: $textColor;
 
   img {
