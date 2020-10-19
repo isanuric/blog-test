@@ -1,3 +1,4 @@
+@charset "UTF-8";
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -42,8 +43,9 @@ content {
 content p {
   white-space: pre;
   text-align: right;
-  font-size: 20px;
-  height: 40vh;
+  font-size: 20 px;
+  height: 50vh;
+  direction: rtl;
 }
 
 a {
