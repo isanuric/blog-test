@@ -7,4 +7,10 @@ content {
     height: 50vh;
     direction: rtl;
   }
+
+  @media (min-width: 350px) {
+    p {
+      font-size: 40px;
+    }
+  }
 }
