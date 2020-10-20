@@ -47,6 +47,12 @@ content p {
   direction: rtl;
 }
 
+@media (min-width: 300px) {
+  html {
+    font-size: 36px;
+  }
+}
+
 a {
   text-decoration: none;
 }
