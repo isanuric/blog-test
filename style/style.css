@@ -8,7 +8,7 @@ header {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 900px;
   color: #3d3d3d;
   background-image: url("../images/p09.jpg");
 }
@@ -23,7 +23,7 @@ header img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 900px;
 }
 
 content {
@@ -36,27 +36,30 @@ content {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  height: 900px;
+  /*   @media (min-width: 400px) {
+    p {
+      font-size: 40px;
+    }
+  } */
 }
 
 content p {
   white-space: pre;
   text-align: right;
-  font-size: 24px;
+  font-size: 20px;
   height: 50vh;
   direction: rtl;
 }
 
-@media (min-width: 350px) {
-  content p {
-    font-size: 40px;
-  }
-}
-
-@media (min-width: 400px) {
-  html {
-    font-size: 40px;
-  }
+body #background {
+  -webkit-clip-path: polygon(100% 5%, 100% 50%, 12% 100%, 0% 100%, 0 51%, 0% 0%);
+          clip-path: polygon(100% 5%, 100% 50%, 12% 100%, 0% 100%, 0 51%, 0% 0%);
+  background-color: rgba(105, 105, 105, 0.164);
+  height: 100%;
+  width: 99%;
+  position: absolute;
+  z-index: -1;
 }
 
 a {
