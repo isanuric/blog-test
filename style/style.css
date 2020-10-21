@@ -1,3 +1,18 @@
+/* @mixin for-tablet-portrait-up {
+  @media (min-width: 400px) {
+    font-size: 10px;
+  }
+} */
+/* @mixin for-desktop-up {
+  @media (min-width: 700px) {
+    font-size: 40px;
+  }
+}
+@mixin for-big-desktop-up {
+  @media (min-width: 1800px) {
+    font-size: 50px;
+  }
+} */
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,17 +52,24 @@ content {
       -ms-flex-align: center;
           align-items: center;
   height: 900px;
-  /*   @media (min-width: 400px) {
-    p {
-      font-size: 40px;
-    }
-  } */
+}
+
+@media (max-width: 499px) {
+  content {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 500px) {
+  content {
+    font-size: 28px;
+  }
 }
 
 content p {
   white-space: pre;
   text-align: right;
-  font-size: 20px;
+  /*  font-size: 5px; */
   height: 50vh;
   direction: rtl;
 }
