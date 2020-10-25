@@ -21,7 +21,7 @@ a:link {
 }
 
 a:visited {
-  color: #868585;
+  color: #291616;
 }
 
 body {
@@ -76,6 +76,11 @@ body #background {
   padding-top: 20rem;
 }
 
+.test-pages {
+  margin: 0 1rem;
+  font-size: 0.5rem;
+}
+
 /* baground like logo */
 body #background {
   -webkit-clip-path: polygon(100% 5%, 100% 50%, 12% 100%, 0% 100%, 0 51%, 0% 0%);
@@ -109,7 +114,7 @@ body #background {
 
 .poem .head ul li a {
   display: block;
-  color: white;
+  color: rgba(7, 7, 7, 0.74);
   text-align: center;
   padding: 1.4rem 1.6rem;
   text-decoration: none;
@@ -144,7 +149,7 @@ content p {
   } */
 /* Grids in 49 */
 .body-poem {
-  background: radial-gradient(#b9b8b8, #131313);
+  background: radial-gradient(#eeeeee, #535353);
 }
 
 header {
@@ -169,6 +174,7 @@ header .navi {
   display: -ms-flexbox;
   display: flex;
   font-size: 0.5rem;
+  color: rgba(7, 7, 7, 0.74);
 }
 
 header .logo {
@@ -180,7 +186,6 @@ header .logo {
 header .logo h2 {
   font-weight: 400;
   margin: 0rem 1rem;
-  color: rgba(105, 105, 105, 0.74);
 }
 
 header nav {
