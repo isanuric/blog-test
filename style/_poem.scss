@@ -1,0 +1,174 @@
+.poem {
+  font-size: 1.6rem;
+
+  .head {
+    margin: 10px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+
+      li {
+        float: left;
+
+        a {
+          display: block;
+          color: white;
+          text-align: center;
+          padding: 1.4rem 1.6rem;
+          text-decoration: none;
+
+          hover {
+            background-color: #111;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+content {
+  @include flexCenter();
+
+  p {
+    white-space: pre;
+    height: 50vh;
+  }
+}
+
+/*  main {
+    margin: 10px 30px;
+    padding-bottom: 35rem;
+  } */
+
+/* Grids in 49 */
+.body-poem {
+  background: radial-gradient(#b9b8b8, #131313);
+}
+
+header {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  align-items: center;
+  margin: 3rem;
+
+  .logo,
+  .navi {
+    display: flex;
+    font-size: 0.5rem;
+  }
+
+  .logo {
+    flex: 3;
+
+    h2 {
+      font-weight: 400;
+      margin: 0rem 1rem;
+      color: rgba(105, 105, 105, 0.74);
+    }
+  }
+
+  nav {
+    flex: 1;
+
+    .navi {
+      justify-content: space-around;
+      list-style: none;
+      //justify-content: flex-end;
+
+      .navi-link {
+      }
+    }
+  }
+
+  /*   .cart {
+    flex: 1;
+    justify-content: flex-end;
+  } */
+}
+
+/* main */
+.row-01 {
+  display: grid;
+  width: 90%;
+  margin: auto;
+  padding: 1rem;
+  grid-template-columns: repeat(3, minmax(5rem, 1fr));
+  grid-template-rows: 1fr;
+  grid-template-areas: "box1  box2  box3";
+  justify-items: center;
+  /* align-items: center; 
+  text-justify: center;
+  */
+  text-align: center;
+
+  .box-1,
+  .box-2,
+  .box-3,
+  .box-4,
+  .box-5,
+  .box-6 {
+    border: solid;
+    margin: 2rem;
+    padding: 1rem;
+    max-height: 10rem;
+    min-height: 10rem;
+    max-width: 10rem;
+    min-width: 10rem;
+  }
+
+  .box-1 {
+    grid-area: box1;
+  }
+  .box-2 {
+    grid-area: box2;
+  }
+  .box-3 {
+    grid-area: box3;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+/* Responsibility */
+@media screen and (max-width: 980px) {
+  /*   body {
+    display: none;
+  } */
+
+  header {
+    padding-top: 2rem;
+    margin: 1rem;
+
+    .logo {
+      display: none;
+    }
+  }
+
+  .row-01 {
+    flex-direction: column;
+    padding-top: 4rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "box1"
+      "box2"
+      "box3";
+
+    .box-1,
+    .box-2,
+    .box-3,
+    .box-4,
+    .box-5,
+    .box-6 {
+      padding-top: auto;
+      margin: 1rem auto;
+    }
+  }
+}

@@ -1,28 +1,6 @@
 @import "./variables";
+@import "./general";
 @import "./mixins";
-@import "./header";
-@import "./content";
-
-body {
-  #background {
-    clip-path: polygon(100% 5%, 100% 50%, 12% 100%, 0% 100%, 0 51%, 0% 0%);
-    background-color: rgba(105, 105, 105, 0.164);
-    height: 100%;
-    width: 99%;
-    position: absolute;
-    z-index: -1;
-  }
-}
-
-// links
-a {
-  text-decoration: none;
-
-  &:link {
-    color: rgb(0, 0, 0);
-  }
-
-  &:visited {
-    color: rgb(134, 133, 133);
-  }
-}
+@import "./body";
+@import "./index";
+@import "./poem";
