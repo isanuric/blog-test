@@ -48,7 +48,7 @@ content {
 
 /* Grids in 49 */
 .body-poem {
-  background: radial-gradient(#eeeeee, #535353);
+  background: radial-gradient(#eeeeee, #b9b9b9);
 }
 
 header {
@@ -103,6 +103,7 @@ header {
   text-justify: center;
   */
   text-align: center;
+  font-size: 0.8rem;
 
   .box-1,
   .box-2,
@@ -137,8 +138,8 @@ footer {
 /* Responsibility */
 @media screen and (max-width: 980px) {
   /*   body {
-    display: none;
-  } */
+      display: none;
+    } */
 
   header {
     padding-top: 2rem;
@@ -166,6 +167,79 @@ footer {
     .box-6 {
       padding-top: auto;
       margin: 1rem auto;
+    }
+  }
+}
+
+/* OLD: Create four equal columns that floats next to each other */
+.row02 {
+  padding-top: 2rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.8rem;
+
+  .box {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    border: solid;
+    margin: 1rem 0rem;
+  }
+
+  /* Clear floats after the columns */
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Go from four columns to two columns */
+  @media screen and (max-width: 800px) {
+    .box {
+      width: 50%;
+    }
+  }
+
+  /* Make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 100%;
+    }
+  }
+}
+
+/* Flex */
+.row03 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  font-size: 0.8rem;
+
+  .box {
+    box-sizing: border-box;
+    float: left;
+    width: 25%;
+    padding: 20px;
+    //border: solid;
+    margin: 1rem 0rem;
+  }
+
+  /* Go from four columns to two columns */
+  @media screen and (max-width: 800px) {
+    .box {
+      width: 50%;
+    }
+  }
+
+  /* Make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .box {
+      width: 100%;
     }
   }
 }
