@@ -32,8 +32,9 @@
   }
 }
 
-content {
+.poem-content {
   @include flexCenter();
+  font-size: 0.7rem;
 
   p {
     white-space: pre;
@@ -51,6 +52,7 @@ content {
   background: radial-gradient(#eeeeee, #b9b9b9);
 }
 
+/* Header and navigation */
 header {
   display: flex;
   width: 90%;
@@ -144,6 +146,7 @@ footer {
   header {
     padding-top: 2rem;
     margin: 1rem;
+    font-size: 0.5rem;
 
     .logo {
       display: none;

@@ -104,9 +104,12 @@ body a {
     font-size: 0.3rem;
     padding-top: 5rem;
   }
-  .test-pages {
-    margin: 0 1rem;
-    font-size: 0.1rem;
+  .test-pages a {
+    margin: 0 0.2rem;
+    font-size: 0.4rem;
+  }
+  .index .links {
+    padding-top: 5rem;
   }
 }
 
@@ -143,7 +146,7 @@ body a {
   cursor: pointer;
 }
 
-content {
+.poem-content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -154,9 +157,10 @@ content {
       -ms-flex-align: center;
           align-items: center;
   height: 900px;
+  font-size: 0.7rem;
 }
 
-content p {
+.poem-content p {
   white-space: pre;
   height: 50vh;
 }
@@ -170,6 +174,7 @@ content p {
   background: radial-gradient(#eeeeee, #b9b9b9);
 }
 
+/* Header and navigation */
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -283,6 +288,7 @@ footer {
   header {
     padding-top: 2rem;
     margin: 1rem;
+    font-size: 0.5rem;
   }
   header .logo {
     display: none;
