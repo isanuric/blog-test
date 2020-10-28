@@ -1,248 +1,38 @@
-.poem {
-  font-size: 1.6rem;
-
-  .head {
-    margin: 10px;
-
-    ul {
-      list-style-type: none;
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #333;
-
-      li {
-        float: left;
-
-        a {
-          display: block;
-          color: rgba(7, 7, 7, 0.74);
-
-          text-align: center;
-          padding: 1.4rem 1.6rem;
-          text-decoration: none;
-
-          hover {
-            background-color: #111;
-            cursor: pointer;
-          }
-        }
-      }
-    }
-  }
-}
-
-.poem-content {
-  @include flexCenter();
-  font-size: 0.7rem;
-
-  p {
-    white-space: pre;
-    height: 50vh;
-  }
-}
-
-/*  main {
-    margin: 10px 30px;
-    padding-bottom: 35rem;
-  } */
-
-/* Grids in 49 */
-.body-poem {
-  background: radial-gradient(#eeeeee, #b9b9b9);
-}
-
 /* Header and navigation */
-header {
+.poem-header {
   display: flex;
   width: 90%;
   margin: auto;
-  align-items: center;
-  margin: 3rem;
-
-  .logo,
-  .navi {
-    display: flex;
-    font-size: 0.5rem;
-    color: rgba(7, 7, 7, 0.74);
-  }
-
-  .logo {
-    flex: 3;
-
-    h2 {
-      font-weight: 400;
-      margin: 0rem 1rem;
-    }
-  }
+  direction: ltr;
 
   nav {
     flex: 1;
 
     .navi {
-      justify-content: space-around;
+      display: flex;
+      justify-content: space-between;
       list-style: none;
+      color: rgba(7, 7, 7, 0.74);
+      a {
+        font-size: 0.5rem;
+      }
     }
   }
-
-  /*   .cart {
-    flex: 1;
-    justify-content: flex-end;
-  } */
 }
 
-/* main */
-.row-01 {
-  display: grid;
-  width: 90%;
-  margin: auto;
-  padding: 1rem;
-  grid-template-columns: repeat(3, minmax(5rem, 1fr));
-  grid-template-rows: 1fr;
-  grid-template-areas: "box1  box2  box3";
-  justify-items: center;
-  /* align-items: center; 
-  text-justify: center;
-  */
-  text-align: center;
-  font-size: 0.8rem;
+/* body */
+.poem-content {
+  @include flexCenter();
+  font-size: 0.7rem;
+  padding-top: 5rem;
+  text-align: right;
 
-  .box-1,
-  .box-2,
-  .box-3,
-  .box-4,
-  .box-5,
-  .box-6 {
-    border: solid;
-    margin: 2rem;
-    padding: 1rem;
-    max-height: 10rem;
-    min-height: 10rem;
-    max-width: 10rem;
-    min-width: 10rem;
-  }
-
-  .box-1 {
-    grid-area: box1;
-  }
-  .box-2 {
-    grid-area: box2;
-  }
-  .box-3 {
-    grid-area: box3;
+  p {
+    white-space: pre; // auto newline
+    height: 0.1rem;
   }
 }
 
 footer {
   text-align: center;
-}
-
-/* Responsibility */
-@media screen and (max-width: 980px) {
-  /*   body {
-      display: none;
-    } */
-
-  header {
-    padding-top: 2rem;
-    margin: 1rem;
-    font-size: 0.5rem;
-
-    .logo {
-      display: none;
-    }
-  }
-
-  .row-01 {
-    flex-direction: column;
-    padding-top: 4rem;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "box1"
-      "box2"
-      "box3";
-
-    .box-1,
-    .box-2,
-    .box-3,
-    .box-4,
-    .box-5,
-    .box-6 {
-      padding-top: auto;
-      margin: 1rem auto;
-    }
-  }
-}
-
-/* OLD: Create four equal columns that floats next to each other */
-.row02 {
-  padding-top: 2rem;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  font-size: 0.8rem;
-
-  .box {
-    box-sizing: border-box;
-    float: left;
-    width: 25%;
-    padding: 20px;
-    border: solid;
-    margin: 1rem 0rem;
-  }
-
-  /* Clear floats after the columns */
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  /* Go from four columns to two columns */
-  @media screen and (max-width: 800px) {
-    .box {
-      width: 50%;
-    }
-  }
-
-  /* Make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .box {
-      width: 100%;
-    }
-  }
-}
-
-/* Flex */
-.row03 {
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 2rem;
-  width: 80%;
-  margin: auto;
-  text-align: center;
-  font-size: 0.8rem;
-
-  .box {
-    box-sizing: border-box;
-    float: left;
-    width: 25%;
-    padding: 20px;
-    //border: solid;
-    margin: 1rem 0rem;
-  }
-
-  /* Go from four columns to two columns */
-  @media screen and (max-width: 800px) {
-    .box {
-      width: 50%;
-    }
-  }
-
-  /* Make the columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-    .box {
-      width: 100%;
-    }
-  }
 }
