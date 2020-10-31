@@ -1,38 +1,123 @@
-/* Header and navigation */
-.poem-header {
-  display: flex;
-  width: 90%;
-  margin: auto;
-  direction: ltr;
+// /* html,
+// .body {
+//   height: 100%;
+// } */
 
-  nav {
-    flex: 1;
+// /* Header and navigation */
+// .poem-header {
+//   display: flex;
+//   width: 90%;
+//   margin: auto;
+//   direction: ltr;
+//   background: lightgoldenrodyellow;
 
-    .navi {
-      display: flex;
-      justify-content: space-between;
-      list-style: none;
-      color: rgba(7, 7, 7, 0.74);
-      a {
-        font-size: 0.5rem;
+//   nav {
+//     flex: 1;
+
+//     .navi {
+//       display: flex;
+//       justify-content: space-between;
+//       list-style: none;
+//       color: rgba(7, 7, 7, 0.74);
+//       a {
+//         font-size: 0.5rem;
+//       }
+//     }
+//   }
+// }
+
+// /* body */
+// /* .body-poem { */
+// .poem-content {
+//   width: 90%;
+//   min-height: 100vh;
+//   background: lightgrey;
+
+//   //@include flexCenter();
+//   //padding-top: 10rem;
+//   font-size: 0.7rem;
+//   text-align: right;
+//   /*  min-height: calc(100vh - 48.5px - 50px); */
+
+//   p {
+//     white-space: pre; // auto newline
+//     height: 0.1rem;
+//   }
+// }
+// /* } */
+
+// footer {
+//   background: lightgreen;
+//   height: 50px;
+//   font-size: 0.5rem;
+//   text-align: center;
+//   padding: 0.5rem;
+//   position: absolute;
+//   bottom: 0;
+//   width: 100%;
+// }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 237, 231);
+  position: relative;
+  min-height: 100vh;
+  display: grid;
+
+  header {
+    display: flex;
+    width: 100%;
+    margin: 1rem;
+    direction: ltr;
+
+    nav {
+      flex: 1;
+
+      .navi {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        color: rgba(7, 7, 7, 0.74);
+        a {
+          font-size: 0.5rem;
+        }
       }
     }
   }
-}
 
-/* body */
-.poem-content {
-  @include flexCenter();
-  font-size: 0.7rem;
-  padding-top: 5rem;
-  text-align: right;
-
-  p {
+  main {
+    display: flex;
+    justify-content: center;
+    padding: 0rem 0 0rem 1rem;
+    padding-bottom: 80px;
     white-space: pre; // auto newline
-    height: 0.1rem;
+    font-size: 0.7rem;
   }
-}
 
-footer {
-  text-align: center;
+  footer {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    font-size: 0.4rem;
+
+    ul {
+      display: flex;
+      justify-content: center;
+      list-style: none;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+      margin: 0 5px;
+    }
+  }
 }

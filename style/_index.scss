@@ -1,4 +1,4 @@
-.index {
+.main-index {
   .links {
     @include flexCenter();
 
@@ -25,22 +25,6 @@
 .test-pages {
   margin: 0 1rem;
   font-size: 0.5rem;
-}
-
-/* baground like logo */
-body {
-  #background {
-    clip-path: polygon(100% 5%, 100% 50%, 12% 100%, 0% 100%, 0 51%, 0% 0%);
-    background-color: rgba(236, 236, 236, 0);
-    height: 100%;
-    width: 99%;
-    position: absolute;
-    z-index: -1;
-  }
-
-  a {
-    font-size: 0.8rem;
-  }
 }
 
 /* Responsibility */
