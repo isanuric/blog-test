@@ -71,19 +71,20 @@ body {
   display: grid;
 
   header {
-    display: flex;
+    // display: flex;
     width: 100%;
-    margin: 1rem;
+    // margin: 1rem;
     direction: ltr;
 
     nav {
       flex: 1;
 
-      .navi {
+      ul {
         display: flex;
         justify-content: space-around;
         list-style: none;
         color: rgba(7, 7, 7, 0.74);
+        background: lightgreen;
         a {
           font-size: 0.5rem;
         }
@@ -94,10 +95,15 @@ body {
   main {
     display: flex;
     justify-content: center;
-    padding: 0rem 0 0rem 1rem;
     padding-bottom: 80px;
-    white-space: pre; // auto newline
+    min-width: 200px;
     font-size: 0.7rem;
+
+    p {
+      display: flex;
+      white-space: pre; // auto newline
+      padding-left: 45px; // push text to center
+    }
   }
 
   footer {

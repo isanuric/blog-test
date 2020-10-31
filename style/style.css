@@ -86,11 +86,7 @@ body {
 }
 
 body header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   width: 100%;
-  margin: 1rem;
   direction: ltr;
 }
 
@@ -100,7 +96,7 @@ body header nav {
           flex: 1;
 }
 
-body header nav .navi {
+body header nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -108,9 +104,10 @@ body header nav .navi {
       justify-content: space-around;
   list-style: none;
   color: rgba(7, 7, 7, 0.74);
+  background: lightgreen;
 }
 
-body header nav .navi a {
+body header nav ul a {
   font-size: 0.5rem;
 }
 
@@ -121,10 +118,17 @@ body main {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 0rem 0 0rem 1rem;
   padding-bottom: 80px;
-  white-space: pre;
+  min-width: 200px;
   font-size: 0.7rem;
+}
+
+body main p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  white-space: pre;
+  padding-left: 45px;
 }
 
 body footer {
