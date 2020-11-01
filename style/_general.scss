@@ -15,10 +15,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(241, 237, 231);
   position: relative;
-  min-height: 100vh;
+  // min-height: 90vh;
+  height: 100vh;
 
   header {
-    // display: flex;
     width: 90%;
     margin: auto;
     direction: ltr;
@@ -43,12 +43,18 @@ body {
     display: flex;
     justify-content: center;
     white-space: pre; // auto newline
-    padding-bottom: 80px;
+    // padding-bottom: 7rem; // move footer to end
     font-size: 0.7rem;
 
     p {
-      padding-top: 3rem;
+      padding-top: 5rem;
       padding-left: 2rem; // push text to center
+      height: 100vh;
+
+      &::selection {
+        background: rgba(21, 20, 31, 0.808);
+        color: white;
+      }
     }
   }
 

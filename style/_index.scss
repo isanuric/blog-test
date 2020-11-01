@@ -15,9 +15,15 @@
   font-size: 0.5rem;
 }
 
-.main-index {
-  p {
-    font-size: 0.8rem;
+.body-index {
+  height: 280vh; // push footer to end
+
+  // .main-index {
+  main {
+    p {
+      padding-top: 2rem;
+      font-size: 0.8rem;
+    }
   }
 }
 
