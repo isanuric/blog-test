@@ -1,0 +1,285 @@
+.body-experiment {
+  text-align: left;
+  direction: ltr;
+  color: rgb(24, 40, 75);
+  // align-self: center;
+
+  .seperator {
+    padding-top: 10rem;
+  }
+
+  // Properties for the Parent (flex container)
+  @mixin box {
+    .box {
+      background: tomato;
+      padding: 2px;
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+
+      line-height: 100px;
+      color: white;
+      font-weight: bold;
+      font-size: 0.5em;
+      text-align: center;
+    }
+  }
+
+  .flexbox-container {
+    display: flex;
+
+    @include box();
+  }
+
+  .flexbox-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include box();
+  }
+
+  .flexbox-container-justify-content {
+    //display: flex;
+
+    .flex-start {
+      display: flex;
+      justify-content: flex-start;
+      @include box();
+      background: lightblue;
+    }
+
+    .flex-end {
+      display: flex;
+      justify-content: flex-end;
+      @include box();
+    }
+
+    .flex-center {
+      display: flex;
+      justify-content: center;
+      @include box();
+      background: lightblue;
+    }
+
+    .flex-space-between {
+      display: flex;
+      justify-content: space-between;
+      @include box();
+    }
+
+    .flex-space-between {
+      display: flex;
+      justify-content: space-between;
+      @include box();
+      background: lightblue;
+    }
+    .flex-space-around {
+      display: flex;
+      justify-content: space-around;
+      @include box();
+    }
+    .flex- {
+      display: flex;
+      justify-content: space-around;
+      @include box();
+      background: lightblue;
+    }
+  }
+}
+
+.footer-poem50 {
+  padding-top: 18rem;
+  font-size: 0.6rem;
+}
+
+/* old */
+/* Grids in 49 */
+// .body-poem {
+//   background: radial-gradient(#eeeeee, #b9b9b9);
+// }
+
+// /* main */
+// .row-01 {
+//   display: grid;
+//   width: 90%;
+//   margin: auto;
+//   padding: 1rem;
+//   grid-template-columns: repeat(3, minmax(5rem, 1fr));
+//   grid-template-rows: 1fr;
+//   grid-template-areas: "box1  box2  box3";
+//   justify-items: center;
+//   /* align-items: center;
+//   text-justify: center;
+//   */
+//   text-align: center;
+//   font-size: 0.8rem;
+
+//   .box-1,
+//   .box-2,
+//   .box-3,
+//   .box-4,
+//   .box-5,
+//   .box-6 {
+//     border: solid;
+//     margin: 2rem;
+//     padding: 1rem;
+//     max-height: 10rem;
+//     min-height: 10rem;
+//     max-width: 10rem;
+//     min-width: 10rem;
+//   }
+
+//   /*   .box-1 {
+//     grid-area: box1;
+//   }
+//   .box-2 {
+//     grid-area: box2;
+//   }
+//   .box-3 {
+//     grid-area: box3;
+//   } */
+// }
+
+// /* Responsibility */
+// @media screen and (max-width: 980px) {
+//   /*   body {
+//       display: none;
+//     } */
+
+//   header {
+//     padding-top: 2rem;
+//     margin: 1rem;
+//     font-size: 0.5rem;
+
+//     .logo {
+//       display: none;
+//     }
+//   }
+
+//   .row-01 {
+//     flex-direction: column;
+//     padding-top: 4rem;
+//     grid-template-columns: 1fr;
+//     grid-template-areas:
+//       "box1"
+//       "box2"
+//       "box3";
+
+//     .box-1,
+//     .box-2,
+//     .box-3,
+//     .box-4,
+//     .box-5,
+//     .box-6 {
+//       padding-top: auto;
+//       margin: 1rem auto;
+//     }
+//   }
+// }
+
+/* OLD: Create four equal columns that floats next to each other */
+// .row02 {
+//   padding-top: 2rem;
+//   width: 80%;
+//   margin: auto;
+//   text-align: center;
+//   font-size: 0.8rem;
+
+//   .box {
+//     box-sizing: border-box;
+//     float: left;
+//     width: 25%;
+//     padding: 20px;
+//     border: solid;
+//     margin: 1rem 0rem;
+//   }
+
+//   /* Clear floats after the columns */
+//   &:after {
+//     content: "";
+//     display: table;
+//     clear: both;
+//   }
+
+//   /* Go from four columns to two columns */
+//   @media screen and (max-width: 800px) {
+//     .box {
+//       width: 50%;
+//     }
+//   }
+
+//   /* Make the columns stack on top of each other instead of next to each other */
+//   @media screen and (max-width: 600px) {
+//     .box {
+//       width: 100%;
+//     }
+//   }
+// }
+
+// /* Flex */
+// .row03 {
+//   display: flex;
+//   flex-wrap: wrap;
+//   padding-top: 2rem;
+//   width: 80%;
+//   margin: auto;
+//   text-align: center;
+//   font-size: 0.8rem;
+
+//   .box {
+//     box-sizing: border-box;
+//     float: left;
+//     width: 25%;
+//     padding: 20px;
+//     //border: solid;
+//     margin: 1rem 0rem;
+//   }
+
+//   /* Go from four columns to two columns */
+//   @media screen and (max-width: 800px) {
+//     .box {
+//       width: 50%;
+//     }
+//   }
+
+//   /* Make the columns stack on top of each other instead of next to each other */
+//   @media screen and (max-width: 600px) {
+//     .box {
+//       width: 100%;
+//     }
+//   }
+// }
+
+/* .poem {
+  font-size: 1.6rem;
+
+  .head {
+    margin: 10px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+
+      li {
+        float: left;
+
+        a {
+          display: block;
+          color: rgba(7, 7, 7, 0.74);
+
+          text-align: center;
+          padding: 1.4rem 1.6rem;
+          text-decoration: none;
+
+          hover {
+            background-color: #111;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+} */
