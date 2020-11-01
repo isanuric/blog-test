@@ -143,4 +143,252 @@ a:visited {
     padding-top: 5rem;
   }
 }
+
+.body-experiment {
+  text-align: left;
+  direction: ltr;
+  color: #18284b;
+}
+
+.body-experiment .seperator {
+  padding-top: 10rem;
+}
+
+.body-experiment .flexbox-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.body-experiment .flexbox-container .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.body-experiment .flexbox-container-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.body-experiment .flexbox-container-wrap .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-start {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  background: lightblue;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-start .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-end .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: lightblue;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-center .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-space-between .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-space-between {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background: lightblue;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-space-between .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-space-around {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.body-experiment .flexbox-container-justify-content .flex-space-around .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.body-experiment .flexbox-container-justify-content .flex- {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  background: lightblue;
+}
+
+.body-experiment .flexbox-container-justify-content .flex- .box {
+  background: tomato;
+  padding: 2px;
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  line-height: 100px;
+  color: white;
+  font-weight: bold;
+  font-size: 0.5em;
+  text-align: center;
+}
+
+.footer-poem50 {
+  padding-top: 18rem;
+  font-size: 0.6rem;
+}
+
+/* old */
+/* Grids in 49 */
+/* OLD: Create four equal columns that floats next to each other */
+/* .poem {
+  font-size: 1.6rem;
+
+  .head {
+    margin: 10px;
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+
+      li {
+        float: left;
+
+        a {
+          display: block;
+          color: rgba(7, 7, 7, 0.74);
+
+          text-align: center;
+          padding: 1.4rem 1.6rem;
+          text-decoration: none;
+
+          hover {
+            background-color: #111;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+} */
 /*# sourceMappingURL=style.css.map */
