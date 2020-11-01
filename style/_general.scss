@@ -19,8 +19,8 @@ body {
 
   header {
     // display: flex;
-    width: 100%;
-    // margin: 1rem;
+    width: 90%;
+    margin: auto;
     direction: ltr;
 
     nav {
@@ -33,7 +33,7 @@ body {
         color: rgba(7, 7, 7, 0.74);
 
         a {
-          font-size: 0.5rem;
+          font-size: 0.4rem;
         }
       }
     }
@@ -43,12 +43,12 @@ body {
     display: flex;
     justify-content: center;
     white-space: pre; // auto newline
-
     padding-bottom: 80px;
     font-size: 0.7rem;
 
     p {
-      padding-left: 45px; // push text to center
+      padding-top: 3rem;
+      padding-left: 2rem; // push text to center
     }
   }
 
