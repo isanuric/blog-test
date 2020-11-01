@@ -22,6 +22,7 @@ body {
 body header {
   width: 90%;
   margin: auto;
+  padding-top: 1rem;
   direction: ltr;
 }
 
