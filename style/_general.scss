@@ -96,12 +96,7 @@ a {
 
 /* Responsibility */
 @media screen and (max-width: 980px) {
-  .image-top {
-    height: 20rem;
-    font-size: 0.4rem;
-    padding-top: 1rem;
-  }
-
+  // poem pages
   body {
     main {
       p {
@@ -112,5 +107,16 @@ a {
     footer {
       padding: 0.5rem;
     }
+  }
+
+  // Index page
+  .image-top {
+    height: 20rem;
+    font-size: 0.4rem;
+    padding-top: 1rem;
+  }
+
+  .body-index {
+    height: 500vh; // push footer to end
   }
 }

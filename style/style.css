@@ -112,16 +112,19 @@ a:visited {
 
 /* Responsibility */
 @media screen and (max-width: 980px) {
-  .image-top {
-    height: 20rem;
-    font-size: 0.4rem;
-    padding-top: 1rem;
-  }
   body main p {
     padding-top: 1rem;
   }
   body footer {
     padding: 0.5rem;
+  }
+  .image-top {
+    height: 20rem;
+    font-size: 0.4rem;
+    padding-top: 1rem;
+  }
+  .body-index {
+    height: 500vh;
   }
 }
 
