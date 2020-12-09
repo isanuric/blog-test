@@ -124,7 +124,7 @@ a:visited {
     padding-top: 1rem;
   }
   .body-index {
-    height: 500vh;
+    height: 700vh;
   }
 }
 
@@ -152,6 +152,24 @@ a:visited {
 .body-index main p {
   padding-top: 2rem;
   font-size: 0.8rem;
+}
+
+/* Responsibility */
+@media screen and (max-width: 980px) {
+  body main p {
+    padding-top: 1rem;
+  }
+  body footer {
+    padding: 0.5rem;
+  }
+  .image-top {
+    height: 20rem;
+    font-size: 0.4rem;
+    padding-top: 1rem;
+  }
+  .body-index {
+    height: 500vh;
+  }
 }
 
 .body-experiment {
