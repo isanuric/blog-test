@@ -65,7 +65,7 @@ body {
     position: absolute;
     bottom: 0;
     padding: 1rem;
-    font-size: 0.4rem;
+    font-size: 0.5rem;
 
     ul {
       display: flex;
@@ -91,32 +91,5 @@ a {
 
   &:visited {
     color: rgba(120, 49, 49, 0.68);
-  }
-}
-
-/* Responsibility */
-@media screen and (max-width: 980px) {
-  // poem pages
-  body {
-    main {
-      p {
-        padding-top: 1rem;
-      }
-    }
-
-    footer {
-      padding: 0.5rem;
-    }
-  }
-
-  // Index page
-  .image-top {
-    height: 20rem;
-    font-size: 0.4rem;
-    padding-top: 1rem;
-  }
-
-  .body-index {
-    height: 700vh; // push footer to end
   }
 }
