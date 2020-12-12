@@ -74,22 +74,22 @@ body main .text {
           justify-content: center;
 }
 
-body main .text p {
+body main p {
   padding-top: 1rem;
   padding-left: 2rem;
 }
 
-body main .text p::-moz-selection {
+body main p::-moz-selection {
   background: rgba(21, 20, 31, 0.808);
   color: white;
 }
 
-body main .text p::selection {
+body main p::selection {
   background: rgba(21, 20, 31, 0.808);
   color: white;
 }
 
-body main .text .signature {
+body main p .signature {
   direction: ltr;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
