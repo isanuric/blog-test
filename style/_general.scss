@@ -42,19 +42,34 @@ body {
 
   main {
     display: flex;
+    flex-direction: row;
     justify-content: center;
     white-space: pre; // auto newline
     // padding-bottom: 7rem; // move footer to end
     font-size: 0.7rem;
 
-    p {
-      padding-top: 5rem;
-      padding-left: 2rem; // push text to center
-      height: 100vh;
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
 
-      &::selection {
-        background: rgba(21, 20, 31, 0.808);
-        color: white;
+      p {
+        padding-top: 1rem;
+        padding-left: 2rem; // push text to center
+        //height: 100vh;
+
+        &::selection {
+          background: rgba(21, 20, 31, 0.808);
+          color: white;
+        }
+      }
+
+      .signature {
+        direction: ltr;
+        justify-content: left;
+        padding-top: 0.1rem;
+        padding-left: 0rem;
+        font-size: 0.5rem;
       }
     }
   }

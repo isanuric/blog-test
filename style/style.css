@@ -50,6 +50,10 @@ body main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -57,20 +61,42 @@ body main {
   font-size: 0.7rem;
 }
 
-body main p {
-  padding-top: 5rem;
+body main .text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .text p {
+  padding-top: 1rem;
   padding-left: 2rem;
-  height: 100vh;
 }
 
-body main p::-moz-selection {
+body main .text p::-moz-selection {
   background: rgba(21, 20, 31, 0.808);
   color: white;
 }
 
-body main p::selection {
+body main .text p::selection {
   background: rgba(21, 20, 31, 0.808);
   color: white;
+}
+
+body main .text .signature {
+  direction: ltr;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-top: 0.1rem;
+  padding-left: 0rem;
+  font-size: 0.5rem;
 }
 
 body footer {
