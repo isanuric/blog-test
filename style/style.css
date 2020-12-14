@@ -74,29 +74,29 @@ body main .text {
           justify-content: center;
 }
 
-body main p {
+body main .text p {
   padding-top: 1rem;
   padding-left: 2rem;
 }
 
-body main p::-moz-selection {
+body main .text p::-moz-selection {
   background: rgba(21, 20, 31, 0.808);
   color: white;
 }
 
-body main p::selection {
+body main .text p::selection {
   background: rgba(21, 20, 31, 0.808);
   color: white;
 }
 
-body main p .signature {
+body main .text .signature {
   direction: ltr;
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
   padding-top: 0.1rem;
   padding-left: 0rem;
-  font-size: 0.5rem;
+  font-size: 0.4rem;
 }
 
 body footer {

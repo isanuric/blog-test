@@ -52,16 +52,15 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
-    }
 
-    p {
-      padding-top: 1rem;
-      padding-left: 2rem; // push text to center
-      //height: 100vh;
+      p {
+        padding-top: 1rem;
+        padding-left: 2rem; // push text to center
 
-      &::selection {
-        background: rgba(21, 20, 31, 0.808);
-        color: white;
+        &::selection {
+          background: rgba(21, 20, 31, 0.808);
+          color: white;
+        }
       }
 
       .signature {
@@ -69,7 +68,7 @@ body {
         justify-content: left;
         padding-top: 0.1rem;
         padding-left: 0rem;
-        font-size: 0.5rem;
+        font-size: 0.4rem;
       }
     }
   }
