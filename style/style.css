@@ -99,6 +99,16 @@ body main .text .signature {
   font-size: 0.5rem;
 }
 
+body main .text .signature_detalis {
+  direction: ltr;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-top: 3rem;
+  padding-left: 0rem;
+  font-size: 0.35rem;
+}
+
 body footer {
   width: 100%;
   text-align: center;
