@@ -76,7 +76,7 @@ body main .text {
 
 body main .text p {
   padding-top: 1rem;
-  padding-left: 2rem;
+  padding-left: 2.5rem;
 }
 
 body main .text p::-moz-selection {
