@@ -115,3 +115,11 @@ a {
     color: rgba(120, 49, 49, 0.68);
   }
 }
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: rgb(29, 28, 28);
+  border-radius: 50%;
+  display: inline-block;
+}
