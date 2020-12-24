@@ -101,18 +101,18 @@ body {
       margin: 0 5px;
     }
   }
-}
 
-// links general
-a {
-  text-decoration: none;
+  // links general
+  a {
+    text-decoration: none;
 
-  &:link {
-    color: rgb(0, 0, 0);
-  }
+    &:link {
+      color: rgb(0, 0, 0);
+    }
 
-  &:visited {
-    color: rgba(120, 49, 49, 0.68);
+    &:visited {
+      color: rgba(120, 49, 49, 0.68);
+    }
   }
 }
 
