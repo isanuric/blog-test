@@ -1,0 +1,30 @@
+/* Responsibility */
+@media screen and (max-width: 700px) {
+  // poem pages
+  body {
+    main {
+      p {
+        padding-top: 1rem;
+      }
+    }
+
+    footer {
+      padding: 0.5rem;
+    }
+  }
+
+  // Index page
+  .image-top {
+    height: 20rem;
+    font-size: 0.4rem;
+    padding-top: 1rem;
+  }
+
+  .body-index {
+    height: 250vh;
+    .big-row {
+      flex-direction: column;
+      background-color: rgba(206, 255, 127, 0.726);
+    }
+  }
+}
