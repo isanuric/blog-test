@@ -1,5 +1,7 @@
 .body-index {
   height: 220vh; // push footer to end
+  // white-space: pre;
+
   background-color: rgba(12, 12, 12, 0.92);
   color: antiquewhite;
 
@@ -45,6 +47,41 @@
     margin: 1rem;
     padding: 1rem;
     background-color: #343936da;
+  }
+
+  .big-title {
+    display: flex;
+    align-items: center; // y-achse
+    justify-content: center; // x-achse
+    height: 5rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: bisque;
+    color: black;
+  }
+  .text {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    font-size: 0.7rem;
+    padding-top: 1rem;
+  }
+  .zitat {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    font-size: 0.6rem;
+    padding-top: 1rem;
+    direction: ltr;
+    font-style: italic;
+
+    .book-name {
+      direction: rtl;
+      padding: 1rem;
+      font-style: oblique;
+      font-size: 0.5rem;
+    }
   }
 
   h1,
