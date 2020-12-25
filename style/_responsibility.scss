@@ -30,9 +30,17 @@
 
   .body-ideas {
     height: 320vh;
+
+    .first-title {
+      padding: 10rem 0rem 1rem 0rem;
+
+      .sub-title {
+        font-size: 0.4rem;
+      }
+    }
     .text {
       width: 90%;
-      font-size: 0.6rem;
+      font-size: 0.65rem;
     }
     .zitat {
       width: 70%;
