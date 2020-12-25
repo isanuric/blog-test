@@ -15,37 +15,13 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: rgb(241, 237, 231);
   position: relative;
-  // min-height: 90vh;
   height: 100vh;
-
-  header {
-    width: 90%;
-    margin: auto;
-    padding-top: 1rem;
-    direction: ltr;
-
-    nav {
-      flex: 1;
-
-      ul {
-        display: flex;
-        justify-content: space-around;
-        list-style: none;
-        color: rgba(7, 7, 7, 0.74);
-
-        a {
-          font-size: 0.4rem;
-        }
-      }
-    }
-  }
 
   main {
     display: flex;
     flex-direction: row;
     justify-content: center;
     white-space: pre; // auto newline
-    // padding-bottom: 7rem; // move footer to end
     font-size: 0.7rem;
 
     .text {
@@ -111,27 +87,29 @@ body {
     }
 
     &:visited {
-      color: rgba(120, 49, 49, 0.68);
+      color: rgba(136, 44, 44, 0.68);
     }
   }
 }
 
-.dot {
-  height: 25px;
-  width: 25px;
-  background-color: rgb(29, 28, 28);
-  border-radius: 50%;
-  display: inline-block;
-}
+header {
+  width: 90%;
+  margin: auto;
+  padding-top: 1rem;
+  direction: ltr;
 
-.bar {
-  width: 10px;
-  float: left;
-  background: red;
+  nav {
+    flex: 1;
 
-  @for $i from 1 through 50 {
-    .bar:nth-child(#{$i}) {
-      height: random(200) + px;
+    ul {
+      display: flex;
+      justify-content: space-around;
+      list-style: none;
+      color: rgba(7, 7, 7, 0.74);
+
+      a {
+        font-size: 0.5rem;
+      }
     }
   }
 }
