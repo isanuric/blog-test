@@ -12,10 +12,15 @@
       flex-direction: column;
       justify-content: center; // x-achse
       align-items: center; // x-achse in column mode
-      padding: 1rem;
+      padding: 2rem;
     }
 
     .links {
+      display: flex;
+      flex-direction: column;
+      // justify-content: center; // x-achse
+      align-items: center; // x-achse in column mode
+
       padding-top: 4rem;
     }
   }
@@ -87,6 +92,12 @@
 
         &:before {
           content: "Friedrich Wilhelm Nietzsche, ";
+        }
+
+        .heidegger-sz {
+          &::before {
+            content: "Martin Heidegger, Sein und Zeit";
+          }
         }
       }
     }
