@@ -26,28 +26,35 @@
     background-color: rgba(71, 70, 68, 0.87);
     color: rgb(221, 221, 221);
   }
-  .text {
-    display: flex;
-    margin: auto;
-    width: 50%;
-    font-size: 0.8rem;
-    padding-top: 1rem;
-  }
-  .zitat {
+  .text-block {
     display: flex;
     flex-direction: column;
-    margin: auto;
-    width: 40%;
-    font-size: 0.6rem;
-    padding-top: 1rem;
-    direction: ltr;
-    font-style: italic;
+    align-items: center; // x-achse in column mode
 
-    .book-name {
-      direction: rtl;
-      padding: 1rem;
-      font-style: oblique;
-      font-size: 0.5rem;
+    margin: auto;
+    text-align: justify;
+    padding-top: 1rem;
+
+    .text {
+      width: 50%;
+      font-size: 0.8rem;
+      display: block;
+    }
+
+    .zitat {
+      flex-direction: column;
+      width: 40%;
+      font-size: 0.6rem;
+      direction: ltr;
+      font-style: italic;
+      padding-top: 1rem;
+
+      .book-name {
+        direction: rtl;
+        padding: 1rem;
+        font-style: oblique;
+        font-size: 0.5rem;
+      }
     }
   }
 
