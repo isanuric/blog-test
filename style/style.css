@@ -161,203 +161,203 @@ body a:visited {
 }
 
 .bar .bar:nth-child(1) {
-  height: 9px;
+  height: 165px;
 }
 
 .bar .bar:nth-child(2) {
-  height: 40px;
-}
-
-.bar .bar:nth-child(3) {
-  height: 5px;
-}
-
-.bar .bar:nth-child(4) {
-  height: 135px;
-}
-
-.bar .bar:nth-child(5) {
-  height: 167px;
-}
-
-.bar .bar:nth-child(6) {
-  height: 85px;
-}
-
-.bar .bar:nth-child(7) {
-  height: 4px;
-}
-
-.bar .bar:nth-child(8) {
-  height: 65px;
-}
-
-.bar .bar:nth-child(9) {
-  height: 31px;
-}
-
-.bar .bar:nth-child(10) {
-  height: 100px;
-}
-
-.bar .bar:nth-child(11) {
-  height: 12px;
-}
-
-.bar .bar:nth-child(12) {
-  height: 12px;
-}
-
-.bar .bar:nth-child(13) {
-  height: 176px;
-}
-
-.bar .bar:nth-child(14) {
-  height: 95px;
-}
-
-.bar .bar:nth-child(15) {
   height: 23px;
 }
 
-.bar .bar:nth-child(16) {
-  height: 68px;
+.bar .bar:nth-child(3) {
+  height: 116px;
 }
 
-.bar .bar:nth-child(17) {
-  height: 17px;
+.bar .bar:nth-child(4) {
+  height: 120px;
 }
 
-.bar .bar:nth-child(18) {
-  height: 119px;
+.bar .bar:nth-child(5) {
+  height: 7px;
 }
 
-.bar .bar:nth-child(19) {
-  height: 185px;
+.bar .bar:nth-child(6) {
+  height: 61px;
 }
 
-.bar .bar:nth-child(20) {
-  height: 167px;
-}
-
-.bar .bar:nth-child(21) {
-  height: 90px;
-}
-
-.bar .bar:nth-child(22) {
-  height: 167px;
-}
-
-.bar .bar:nth-child(23) {
-  height: 146px;
-}
-
-.bar .bar:nth-child(24) {
-  height: 38px;
-}
-
-.bar .bar:nth-child(25) {
-  height: 48px;
-}
-
-.bar .bar:nth-child(26) {
-  height: 140px;
-}
-
-.bar .bar:nth-child(27) {
-  height: 177px;
-}
-
-.bar .bar:nth-child(28) {
-  height: 46px;
-}
-
-.bar .bar:nth-child(29) {
-  height: 156px;
-}
-
-.bar .bar:nth-child(30) {
-  height: 85px;
-}
-
-.bar .bar:nth-child(31) {
-  height: 69px;
-}
-
-.bar .bar:nth-child(32) {
-  height: 113px;
-}
-
-.bar .bar:nth-child(33) {
-  height: 85px;
-}
-
-.bar .bar:nth-child(34) {
-  height: 15px;
-}
-
-.bar .bar:nth-child(35) {
-  height: 106px;
-}
-
-.bar .bar:nth-child(36) {
-  height: 15px;
-}
-
-.bar .bar:nth-child(37) {
-  height: 154px;
-}
-
-.bar .bar:nth-child(38) {
-  height: 78px;
-}
-
-.bar .bar:nth-child(39) {
-  height: 78px;
-}
-
-.bar .bar:nth-child(40) {
-  height: 159px;
-}
-
-.bar .bar:nth-child(41) {
-  height: 178px;
-}
-
-.bar .bar:nth-child(42) {
-  height: 6px;
-}
-
-.bar .bar:nth-child(43) {
+.bar .bar:nth-child(7) {
   height: 40px;
 }
 
+.bar .bar:nth-child(8) {
+  height: 159px;
+}
+
+.bar .bar:nth-child(9) {
+  height: 177px;
+}
+
+.bar .bar:nth-child(10) {
+  height: 188px;
+}
+
+.bar .bar:nth-child(11) {
+  height: 37px;
+}
+
+.bar .bar:nth-child(12) {
+  height: 98px;
+}
+
+.bar .bar:nth-child(13) {
+  height: 154px;
+}
+
+.bar .bar:nth-child(14) {
+  height: 133px;
+}
+
+.bar .bar:nth-child(15) {
+  height: 24px;
+}
+
+.bar .bar:nth-child(16) {
+  height: 132px;
+}
+
+.bar .bar:nth-child(17) {
+  height: 42px;
+}
+
+.bar .bar:nth-child(18) {
+  height: 51px;
+}
+
+.bar .bar:nth-child(19) {
+  height: 148px;
+}
+
+.bar .bar:nth-child(20) {
+  height: 84px;
+}
+
+.bar .bar:nth-child(21) {
+  height: 15px;
+}
+
+.bar .bar:nth-child(22) {
+  height: 164px;
+}
+
+.bar .bar:nth-child(23) {
+  height: 185px;
+}
+
+.bar .bar:nth-child(24) {
+  height: 116px;
+}
+
+.bar .bar:nth-child(25) {
+  height: 105px;
+}
+
+.bar .bar:nth-child(26) {
+  height: 124px;
+}
+
+.bar .bar:nth-child(27) {
+  height: 73px;
+}
+
+.bar .bar:nth-child(28) {
+  height: 105px;
+}
+
+.bar .bar:nth-child(29) {
+  height: 128px;
+}
+
+.bar .bar:nth-child(30) {
+  height: 150px;
+}
+
+.bar .bar:nth-child(31) {
+  height: 182px;
+}
+
+.bar .bar:nth-child(32) {
+  height: 88px;
+}
+
+.bar .bar:nth-child(33) {
+  height: 178px;
+}
+
+.bar .bar:nth-child(34) {
+  height: 71px;
+}
+
+.bar .bar:nth-child(35) {
+  height: 96px;
+}
+
+.bar .bar:nth-child(36) {
+  height: 97px;
+}
+
+.bar .bar:nth-child(37) {
+  height: 28px;
+}
+
+.bar .bar:nth-child(38) {
+  height: 43px;
+}
+
+.bar .bar:nth-child(39) {
+  height: 24px;
+}
+
+.bar .bar:nth-child(40) {
+  height: 117px;
+}
+
+.bar .bar:nth-child(41) {
+  height: 80px;
+}
+
+.bar .bar:nth-child(42) {
+  height: 124px;
+}
+
+.bar .bar:nth-child(43) {
+  height: 160px;
+}
+
 .bar .bar:nth-child(44) {
-  height: 36px;
+  height: 45px;
 }
 
 .bar .bar:nth-child(45) {
-  height: 53px;
+  height: 39px;
 }
 
 .bar .bar:nth-child(46) {
-  height: 26px;
+  height: 42px;
 }
 
 .bar .bar:nth-child(47) {
-  height: 86px;
+  height: 193px;
 }
 
 .bar .bar:nth-child(48) {
-  height: 143px;
+  height: 23px;
 }
 
 .bar .bar:nth-child(49) {
-  height: 166px;
+  height: 52px;
 }
 
 .bar .bar:nth-child(50) {
-  height: 79px;
+  height: 96px;
 }
 
 .body-index {
@@ -530,23 +530,6 @@ body a:visited {
   font-size: 0.5rem;
 }
 
-.body-ideas .big-title {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 5rem;
-  width: 100%;
-  margin-top: 1rem;
-  background-color: rgba(71, 70, 68, 0.87);
-  color: #dddddd;
-}
-
 .body-ideas .text-block {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -562,10 +545,31 @@ body a:visited {
   padding-top: 1rem;
 }
 
+.body-ideas .text-block .big-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 5rem;
+  width: 100%;
+  margin-top: 1rem;
+  background-color: rgba(71, 70, 68, 0.87);
+  color: #dddddd;
+}
+
 .body-ideas .text-block .text {
   width: 50%;
   font-size: 0.8rem;
-  display: block;
+  padding-top: 1rem;
 }
 
 .body-ideas .text-block .zitat {
@@ -574,7 +578,7 @@ body a:visited {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 40%;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   direction: ltr;
   font-style: italic;
   padding-top: 1rem;
@@ -582,9 +586,14 @@ body a:visited {
 
 .body-ideas .text-block .zitat .book-name {
   direction: rtl;
-  padding: 1rem;
+  padding: 0.2rem;
   font-style: oblique;
   font-size: 0.5rem;
+  font-weight: bold;
+}
+
+.body-ideas .text-block .zitat .book-name:before {
+  content: "Friedrich Wilhelm Nietzsche, ";
 }
 
 .body-ideas h1,

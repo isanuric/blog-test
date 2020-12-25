@@ -13,17 +13,6 @@
     }
   }
 
-  .big-title {
-    display: flex;
-    align-items: center; // y-achse
-    justify-content: center; // x-achse
-    height: 5rem;
-    width: 100%;
-    margin-top: 1rem;
-    background-color: rgba(71, 70, 68, 0.87);
-    color: rgb(221, 221, 221);
-  }
-
   .text-block {
     display: flex;
     flex-direction: column;
@@ -31,25 +20,42 @@
     text-align: justify; // lines in a block
     padding-top: 1rem;
 
+    .big-title {
+      display: flex;
+      flex-direction: row;
+      align-items: center; // y-achse
+      justify-content: center; // x-achse
+      height: 5rem;
+      width: 100%;
+      margin-top: 1rem;
+      background-color: rgba(71, 70, 68, 0.87);
+      color: rgb(221, 221, 221);
+    }
+
     .text {
       width: 50%;
       font-size: 0.8rem;
-      display: block;
+      padding-top: 1rem;
     }
 
     .zitat {
       flex-direction: column;
       width: 40%;
-      font-size: 0.6rem;
+      font-size: 0.7rem;
       direction: ltr;
       font-style: italic;
       padding-top: 1rem;
 
       .book-name {
         direction: rtl;
-        padding: 1rem;
+        padding: 0.2rem;
         font-style: oblique;
         font-size: 0.5rem;
+        font-weight: bold;
+
+        &:before {
+          content: "Friedrich Wilhelm Nietzsche, ";
+        }
       }
     }
   }
