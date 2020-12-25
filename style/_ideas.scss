@@ -1,0 +1,88 @@
+.body-ideas {
+  //   display: flex;
+  //   flex-direction: column;
+  justify-content: center; // x-achse
+  height: 220vh; // push footer to end
+  //   white-space: pre;
+
+  .first-title {
+    display: flex;
+    align-items: center; // y-achse
+    justify-content: center; // x-achse
+    padding: 10rem 0rem 10rem 0rem;
+
+    .sub-title {
+      font-size: 0.5rem;
+    }
+  }
+
+  .big-title {
+    display: flex;
+    align-items: center; // y-achse
+    justify-content: center; // x-achse
+    height: 5rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: rgba(71, 70, 68, 0.87);
+    color: rgb(221, 221, 221);
+  }
+  .text {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    font-size: 0.8rem;
+    padding-top: 1rem;
+  }
+  .zitat {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 40%;
+    font-size: 0.6rem;
+    padding-top: 1rem;
+    direction: ltr;
+    font-style: italic;
+
+    .book-name {
+      direction: rtl;
+      padding: 1rem;
+      font-style: oblique;
+      font-size: 0.5rem;
+    }
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin: 1rem;
+  }
+
+  p {
+    margin: 0.5rem;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 0.5rem;
+    // min-height: 1rem;
+    padding: 1rem;
+    // background-color: #d106d8;
+
+    a {
+      padding: 0.2rem;
+    }
+  }
+
+  // links in ideas page
+  a {
+    text-decoration: none;
+
+    &:link {
+      color: antiquewhite;
+    }
+
+    &:visited {
+      color: rgba(154, 154, 154, 0.817);
+    }
+  }
+}
