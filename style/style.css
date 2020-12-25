@@ -161,103 +161,103 @@ body a:visited {
 }
 
 .bar .bar:nth-child(1) {
-  height: 57px;
+  height: 66px;
 }
 
 .bar .bar:nth-child(2) {
-  height: 57px;
+  height: 126px;
 }
 
 .bar .bar:nth-child(3) {
-  height: 25px;
+  height: 27px;
 }
 
 .bar .bar:nth-child(4) {
-  height: 83px;
-}
-
-.bar .bar:nth-child(5) {
-  height: 196px;
-}
-
-.bar .bar:nth-child(6) {
-  height: 78px;
-}
-
-.bar .bar:nth-child(7) {
-  height: 140px;
-}
-
-.bar .bar:nth-child(8) {
-  height: 76px;
-}
-
-.bar .bar:nth-child(9) {
-  height: 182px;
-}
-
-.bar .bar:nth-child(10) {
   height: 82px;
 }
 
+.bar .bar:nth-child(5) {
+  height: 57px;
+}
+
+.bar .bar:nth-child(6) {
+  height: 123px;
+}
+
+.bar .bar:nth-child(7) {
+  height: 16px;
+}
+
+.bar .bar:nth-child(8) {
+  height: 163px;
+}
+
+.bar .bar:nth-child(9) {
+  height: 67px;
+}
+
+.bar .bar:nth-child(10) {
+  height: 10px;
+}
+
 .bar .bar:nth-child(11) {
-  height: 171px;
+  height: 194px;
 }
 
 .bar .bar:nth-child(12) {
-  height: 49px;
+  height: 66px;
 }
 
 .bar .bar:nth-child(13) {
-  height: 115px;
+  height: 119px;
 }
 
 .bar .bar:nth-child(14) {
-  height: 190px;
+  height: 148px;
 }
 
 .bar .bar:nth-child(15) {
-  height: 77px;
+  height: 138px;
 }
 
 .bar .bar:nth-child(16) {
-  height: 131px;
+  height: 188px;
 }
 
 .bar .bar:nth-child(17) {
-  height: 150px;
+  height: 37px;
 }
 
 .bar .bar:nth-child(18) {
-  height: 52px;
+  height: 62px;
 }
 
 .bar .bar:nth-child(19) {
-  height: 46px;
+  height: 159px;
 }
 
 .bar .bar:nth-child(20) {
-  height: 85px;
+  height: 67px;
 }
 
 .bar .bar:nth-child(21) {
-  height: 91px;
+  height: 72px;
 }
 
 .bar .bar:nth-child(22) {
-  height: 140px;
+  height: 158px;
 }
 
 .bar .bar:nth-child(23) {
-  height: 149px;
+  height: 114px;
 }
 
 .bar .bar:nth-child(24) {
-  height: 56px;
+  height: 179px;
 }
 
 .bar .bar:nth-child(25) {
-  height: 5px;
+  height: 190px;
 }
 
 .bar .bar:nth-child(26) {
@@ -265,99 +265,99 @@ body a:visited {
 }
 
 .bar .bar:nth-child(27) {
-  height: 141px;
+  height: 73px;
 }
 
 .bar .bar:nth-child(28) {
-  height: 3px;
+  height: 141px;
 }
 
 .bar .bar:nth-child(29) {
-  height: 195px;
+  height: 69px;
 }
 
 .bar .bar:nth-child(30) {
-  height: 122px;
+  height: 97px;
 }
 
 .bar .bar:nth-child(31) {
-  height: 64px;
+  height: 103px;
 }
 
 .bar .bar:nth-child(32) {
-  height: 4px;
+  height: 14px;
 }
 
 .bar .bar:nth-child(33) {
-  height: 74px;
+  height: 41px;
 }
 
 .bar .bar:nth-child(34) {
-  height: 20px;
+  height: 116px;
 }
 
 .bar .bar:nth-child(35) {
-  height: 104px;
+  height: 169px;
 }
 
 .bar .bar:nth-child(36) {
-  height: 31px;
+  height: 106px;
 }
 
 .bar .bar:nth-child(37) {
-  height: 138px;
+  height: 36px;
 }
 
 .bar .bar:nth-child(38) {
-  height: 145px;
-}
-
-.bar .bar:nth-child(39) {
-  height: 99px;
-}
-
-.bar .bar:nth-child(40) {
-  height: 131px;
-}
-
-.bar .bar:nth-child(41) {
-  height: 181px;
-}
-
-.bar .bar:nth-child(42) {
-  height: 23px;
-}
-
-.bar .bar:nth-child(43) {
-  height: 157px;
-}
-
-.bar .bar:nth-child(44) {
-  height: 6px;
-}
-
-.bar .bar:nth-child(45) {
-  height: 192px;
-}
-
-.bar .bar:nth-child(46) {
   height: 31px;
 }
 
+.bar .bar:nth-child(39) {
+  height: 98px;
+}
+
+.bar .bar:nth-child(40) {
+  height: 102px;
+}
+
+.bar .bar:nth-child(41) {
+  height: 112px;
+}
+
+.bar .bar:nth-child(42) {
+  height: 190px;
+}
+
+.bar .bar:nth-child(43) {
+  height: 14px;
+}
+
+.bar .bar:nth-child(44) {
+  height: 193px;
+}
+
+.bar .bar:nth-child(45) {
+  height: 166px;
+}
+
+.bar .bar:nth-child(46) {
+  height: 110px;
+}
+
 .bar .bar:nth-child(47) {
-  height: 39px;
+  height: 200px;
 }
 
 .bar .bar:nth-child(48) {
-  height: 6px;
+  height: 174px;
 }
 
 .bar .bar:nth-child(49) {
-  height: 79px;
+  height: 170px;
 }
 
 .bar .bar:nth-child(50) {
-  height: 160px;
+  height: 112px;
 }
 
 .body-index {
@@ -529,15 +529,15 @@ body a:visited {
             flex-direction: column;
     background-color: rgba(42, 41, 41, 0.781);
   }
-  .body-indeas {
+  .body-ideas {
     height: 320vh;
   }
-  .body-indeas .text {
+  .body-ideas .text {
     width: 90%;
     font-size: 0.6rem;
     background-color: rgba(42, 41, 41, 0.781);
   }
-  .body-indeas .zitat {
+  .body-ideas .zitat {
     width: 80%;
     font-size: 0.5rem;
   }
