@@ -20,8 +20,11 @@
       flex-direction: column;
       // justify-content: center; // x-achse
       align-items: center; // x-achse in column mode
-
       padding-top: 4rem;
+
+      a {
+        padding: 0.5rem;
+      }
     }
   }
 }

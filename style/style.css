@@ -340,6 +340,10 @@ header nav ul a {
   padding-top: 4rem;
 }
 
+.body-ideas-main-page .main .links a {
+  padding: 0.5rem;
+}
+
 .body-ideas {
   height: 220vh;
 }
