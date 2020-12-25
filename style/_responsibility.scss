@@ -38,13 +38,15 @@
         font-size: 0.4rem;
       }
     }
-    .text {
-      width: 90%;
-      font-size: 0.65rem;
-    }
-    .zitat {
-      width: 80%;
-      font-size: 0.5rem;
+    .text-block {
+      .text {
+        width: 90%;
+        font-size: 0.65rem;
+      }
+      .zitat {
+        width: 80%;
+        font-size: 0.5rem;
+      }
     }
   }
 }

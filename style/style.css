@@ -161,147 +161,147 @@ body a:visited {
 }
 
 .bar .bar:nth-child(1) {
-  height: 59px;
+  height: 9px;
 }
 
 .bar .bar:nth-child(2) {
-  height: 75px;
+  height: 40px;
 }
 
 .bar .bar:nth-child(3) {
-  height: 178px;
+  height: 5px;
 }
 
 .bar .bar:nth-child(4) {
-  height: 134px;
+  height: 135px;
 }
 
 .bar .bar:nth-child(5) {
-  height: 147px;
+  height: 167px;
 }
 
 .bar .bar:nth-child(6) {
-  height: 152px;
+  height: 85px;
 }
 
 .bar .bar:nth-child(7) {
-  height: 118px;
+  height: 4px;
 }
 
 .bar .bar:nth-child(8) {
-  height: 183px;
+  height: 65px;
 }
 
 .bar .bar:nth-child(9) {
-  height: 128px;
+  height: 31px;
 }
 
 .bar .bar:nth-child(10) {
-  height: 95px;
+  height: 100px;
 }
 
 .bar .bar:nth-child(11) {
-  height: 50px;
+  height: 12px;
 }
 
 .bar .bar:nth-child(12) {
-  height: 159px;
+  height: 12px;
 }
 
 .bar .bar:nth-child(13) {
-  height: 105px;
+  height: 176px;
 }
 
 .bar .bar:nth-child(14) {
-  height: 143px;
+  height: 95px;
 }
 
 .bar .bar:nth-child(15) {
-  height: 21px;
+  height: 23px;
 }
 
 .bar .bar:nth-child(16) {
-  height: 50px;
+  height: 68px;
 }
 
 .bar .bar:nth-child(17) {
-  height: 83px;
+  height: 17px;
 }
 
 .bar .bar:nth-child(18) {
-  height: 73px;
+  height: 119px;
 }
 
 .bar .bar:nth-child(19) {
-  height: 67px;
+  height: 185px;
 }
 
 .bar .bar:nth-child(20) {
-  height: 79px;
+  height: 167px;
 }
 
 .bar .bar:nth-child(21) {
-  height: 73px;
+  height: 90px;
 }
 
 .bar .bar:nth-child(22) {
-  height: 54px;
+  height: 167px;
 }
 
 .bar .bar:nth-child(23) {
-  height: 36px;
+  height: 146px;
 }
 
 .bar .bar:nth-child(24) {
-  height: 178px;
+  height: 38px;
 }
 
 .bar .bar:nth-child(25) {
-  height: 63px;
+  height: 48px;
 }
 
 .bar .bar:nth-child(26) {
-  height: 61px;
+  height: 140px;
 }
 
 .bar .bar:nth-child(27) {
-  height: 82px;
+  height: 177px;
 }
 
 .bar .bar:nth-child(28) {
-  height: 118px;
+  height: 46px;
 }
 
 .bar .bar:nth-child(29) {
-  height: 77px;
+  height: 156px;
 }
 
 .bar .bar:nth-child(30) {
-  height: 104px;
+  height: 85px;
 }
 
 .bar .bar:nth-child(31) {
-  height: 160px;
+  height: 69px;
 }
 
 .bar .bar:nth-child(32) {
-  height: 80px;
+  height: 113px;
 }
 
 .bar .bar:nth-child(33) {
-  height: 43px;
+  height: 85px;
 }
 
 .bar .bar:nth-child(34) {
-  height: 132px;
+  height: 15px;
 }
 
 .bar .bar:nth-child(35) {
-  height: 32px;
+  height: 106px;
 }
 
 .bar .bar:nth-child(36) {
-  height: 187px;
+  height: 15px;
 }
 
 .bar .bar:nth-child(37) {
@@ -309,55 +309,55 @@ body a:visited {
 }
 
 .bar .bar:nth-child(38) {
-  height: 178px;
+  height: 78px;
 }
 
 .bar .bar:nth-child(39) {
-  height: 41px;
+  height: 78px;
 }
 
 .bar .bar:nth-child(40) {
-  height: 72px;
+  height: 159px;
 }
 
 .bar .bar:nth-child(41) {
-  height: 126px;
+  height: 178px;
 }
 
 .bar .bar:nth-child(42) {
-  height: 185px;
+  height: 6px;
 }
 
 .bar .bar:nth-child(43) {
-  height: 194px;
+  height: 40px;
 }
 
 .bar .bar:nth-child(44) {
-  height: 7px;
+  height: 36px;
 }
 
 .bar .bar:nth-child(45) {
-  height: 138px;
+  height: 53px;
 }
 
 .bar .bar:nth-child(46) {
-  height: 75px;
+  height: 26px;
 }
 
 .bar .bar:nth-child(47) {
-  height: 49px;
+  height: 86px;
 }
 
 .bar .bar:nth-child(48) {
-  height: 37px;
+  height: 143px;
 }
 
 .bar .bar:nth-child(49) {
-  height: 126px;
+  height: 166px;
 }
 
 .bar .bar:nth-child(50) {
-  height: 50px;
+  height: 79px;
 }
 
 .body-index {
@@ -517,12 +517,12 @@ body a:visited {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10rem 0rem 10rem 0rem;
 }
 
@@ -558,7 +558,6 @@ body a:visited {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: auto;
   text-align: justify;
   padding-top: 1rem;
 }
@@ -652,11 +651,11 @@ body a:visited {
   .body-ideas .first-title .sub-title {
     font-size: 0.4rem;
   }
-  .body-ideas .text {
+  .body-ideas .text-block .text {
     width: 90%;
     font-size: 0.65rem;
   }
-  .body-ideas .zitat {
+  .body-ideas .text-block .zitat {
     width: 80%;
     font-size: 0.5rem;
   }

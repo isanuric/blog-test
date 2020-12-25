@@ -1,14 +1,11 @@
 .body-ideas {
-  //   display: flex;
-  //   flex-direction: column;
   justify-content: center; // x-achse
   height: 220vh; // push footer to end
-  //   white-space: pre;
 
   .first-title {
     display: flex;
-    align-items: center; // y-achse
     justify-content: center; // x-achse
+    align-items: center; // y-achse
     padding: 10rem 0rem 10rem 0rem;
 
     .sub-title {
@@ -26,13 +23,12 @@
     background-color: rgba(71, 70, 68, 0.87);
     color: rgb(221, 221, 221);
   }
+
   .text-block {
     display: flex;
     flex-direction: column;
     align-items: center; // x-achse in column mode
-
-    margin: auto;
-    text-align: justify;
+    text-align: justify; // lines in a block
     padding-top: 1rem;
 
     .text {
