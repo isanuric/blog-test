@@ -2,6 +2,16 @@
   justify-content: center; // x-achse
   height: 220vh; // push footer to end
 
+  h1,
+  h2,
+  h3 {
+    margin: 1rem;
+  }
+
+  p {
+    margin: 0.5rem;
+  }
+
   .first-title {
     display: flex;
     justify-content: center; // x-achse
@@ -13,24 +23,24 @@
     }
   }
 
+  .big-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center; // y-achse
+    justify-content: center; // x-achse
+    height: 5rem;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: rgba(71, 70, 68, 0.87);
+    color: rgb(221, 221, 221);
+  }
+
   .text-block {
     display: flex;
     flex-direction: column;
     align-items: center; // x-achse in column mode
     text-align: justify; // lines in a block
     padding-top: 1rem;
-
-    .big-title {
-      display: flex;
-      flex-direction: row;
-      align-items: center; // y-achse
-      justify-content: center; // x-achse
-      height: 5rem;
-      width: 100%;
-      margin-top: 1rem;
-      background-color: rgba(71, 70, 68, 0.87);
-      color: rgb(221, 221, 221);
-    }
 
     .text {
       width: 50%;
@@ -58,16 +68,6 @@
         }
       }
     }
-  }
-
-  h1,
-  h2,
-  h3 {
-    margin: 1rem;
-  }
-
-  p {
-    margin: 0.5rem;
   }
 
   .footer {
