@@ -89,7 +89,7 @@ p {
       font-size: 0.7rem;
       direction: ltr;
       font-style: italic;
-      padding-top: 1rem;
+      padding-top: 1.5rem;
 
       .nietzsche {
         direction: rtl;
@@ -126,17 +126,4 @@ p {
       padding: 0.2rem;
     }
   }
-
-  //   // links in ideas page
-  //   a {
-  //     text-decoration: none;
-
-  //     &:link {
-  //       color: antiquewhite;
-  //     }
-
-  //     &:visited {
-  //       color: rgba(154, 154, 154, 0.817);
-  //     }
-  //   }
 }
