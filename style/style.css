@@ -448,6 +448,10 @@ header nav ul a {
   content: "Martin Heidegger, Sein und Zeit";
 }
 
+.body-ideas .text-block .zitat .book-name .heidegger::before {
+  content: "Martin Heidegger";
+}
+
 .body-ideas .footer {
   text-align: center;
   font-size: 0.5rem;
