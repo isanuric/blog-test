@@ -491,7 +491,7 @@ p {
     background-color: rgba(42, 41, 41, 0.781);
   }
   .body-ideas-main-page .main .links {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .body-ideas {
     height: 600vh;
