@@ -97,8 +97,10 @@
         font-size: 0.5rem;
         font-weight: bold;
 
-        &:before {
-          content: "Friedrich Wilhelm Nietzsche, ";
+        .nietzsche {
+          &:before {
+            content: "Friedrich Wilhelm Nietzsche, ";
+          }
         }
 
         .heidegger-sz {
