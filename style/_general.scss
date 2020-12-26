@@ -77,19 +77,6 @@ body {
       margin: 0 5px;
     }
   }
-
-  // links general
-  a {
-    text-decoration: none;
-
-    &:link {
-      color: rgb(0, 0, 0);
-    }
-
-    &:visited {
-      color: rgba(136, 44, 44, 0.68);
-    }
-  }
 }
 
 header {
@@ -111,5 +98,18 @@ header {
         font-size: 0.5rem;
       }
     }
+  }
+}
+
+// links general
+a {
+  text-decoration: none;
+
+  &:link {
+    color: rgb(0, 0, 0);
+  }
+
+  &:visited {
+    color: rgba(136, 44, 44, 0.68);
   }
 }

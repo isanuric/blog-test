@@ -107,18 +107,6 @@ body footer img {
   margin: 0 5px;
 }
 
-body a {
-  text-decoration: none;
-}
-
-body a:link {
-  color: black;
-}
-
-body a:visited {
-  color: rgba(136, 44, 44, 0.68);
-}
-
 header {
   width: 90%;
   margin: auto;
@@ -144,6 +132,18 @@ header nav ul {
 
 header nav ul a {
   font-size: 0.5rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: rgba(136, 44, 44, 0.68);
 }
 
 .body-index {
@@ -454,7 +454,7 @@ p {
 }
 
 .body-ideas .text-block .zitat .heidegger:before {
-  content: "Martin Heidegger ";
+  content: "Martin Heidegger, ";
 }
 
 .body-ideas .footer {
