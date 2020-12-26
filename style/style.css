@@ -395,6 +395,7 @@ header nav ul a {
   height: 5rem;
   width: 100%;
   margin-top: 1rem;
+  text-transform: uppercase;
   background-color: rgba(71, 70, 68, 0.87);
   color: #dddddd;
 }
