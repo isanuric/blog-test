@@ -469,9 +469,6 @@ p {
 
 /* Responsibility */
 @media screen and (max-width: 700px) {
-  header {
-    padding-top: 0.5rem;
-  }
   body main p {
     padding-top: 0rem;
   }
@@ -492,6 +489,9 @@ p {
         -ms-flex-direction: column;
             flex-direction: column;
     background-color: rgba(42, 41, 41, 0.781);
+  }
+  .body-ideas-main-page .links {
+    padding-top: 2rem;
   }
   .body-ideas {
     height: 470vh;

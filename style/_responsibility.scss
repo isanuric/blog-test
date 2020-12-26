@@ -1,9 +1,5 @@
 /* Responsibility */
 @media screen and (max-width: 700px) {
-  header {
-    padding-top: 0.5rem;
-  }
-
   // poem pages
   body {
     main {
@@ -29,6 +25,12 @@
     .big-row {
       flex-direction: column;
       background-color: rgba(42, 41, 41, 0.781);
+    }
+  }
+
+  .body-ideas-main-page {
+    .links {
+      padding-top: 2rem;
     }
   }
 
