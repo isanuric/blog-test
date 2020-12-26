@@ -485,7 +485,7 @@ p {
     padding-top: 0.5rem;
   }
   body main p {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   body footer {
     padding: 0.5rem;
