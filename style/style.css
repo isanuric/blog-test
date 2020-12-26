@@ -350,8 +350,11 @@ header nav ul a {
 
 .body-ideas h1,
 .body-ideas h2,
-.body-ideas h3 {
-  margin: 1rem;
+.body-ideas h3,
+.body-ideas h4,
+.body-ideas h5,
+.body-ideas h6 {
+  margin: 0.5rem;
 }
 
 .body-ideas p {
