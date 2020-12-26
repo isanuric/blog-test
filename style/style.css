@@ -490,7 +490,7 @@ p {
             flex-direction: column;
     background-color: rgba(42, 41, 41, 0.781);
   }
-  .body-ideas-main-page .links {
+  .body-ideas-main-page .main .links {
     padding-top: 2rem;
   }
   .body-ideas {
