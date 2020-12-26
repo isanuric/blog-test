@@ -292,6 +292,19 @@ header nav ul a {
   color: rgba(154, 154, 154, 0.817);
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5rem;
+}
+
+p {
+  margin: 0.5rem;
+}
+
 .body-ideas-main-page {
   height: 100vh;
 }
@@ -346,19 +359,6 @@ header nav ul a {
 
 .body-ideas {
   height: 400vh;
-}
-
-.body-ideas h1,
-.body-ideas h2,
-.body-ideas h3,
-.body-ideas h4,
-.body-ideas h5,
-.body-ideas h6 {
-  margin: 0.5rem;
-}
-
-.body-ideas p {
-  margin: 0.5rem;
 }
 
 .body-ideas .first-title {
@@ -433,7 +433,7 @@ header nav ul a {
   padding-top: 1rem;
 }
 
-.body-ideas .text-block .zitat .book-name {
+.body-ideas .text-block .zitat .nietzsche {
   direction: rtl;
   padding: 0.2rem;
   font-style: oblique;
@@ -441,16 +441,20 @@ header nav ul a {
   font-weight: bold;
 }
 
-.body-ideas .text-block .zitat .book-name .nietzsche:before {
-  content: "Friedrich Wilhelm Nietzsche, ";
+.body-ideas .text-block .zitat .nietzsche:before {
+  content: "Nietzsche, ";
 }
 
-.body-ideas .text-block .zitat .book-name .heidegger-sz::before {
-  content: "Martin Heidegger, Sein und Zeit";
+.body-ideas .text-block .zitat .heidegger {
+  direction: rtl;
+  padding: 0.2rem;
+  font-style: oblique;
+  font-size: 0.5rem;
+  font-weight: bold;
 }
 
-.body-ideas .text-block .zitat .book-name .heidegger::before {
-  content: "Martin Heidegger";
+.body-ideas .text-block .zitat .heidegger:before {
+  content: "Martin Heidegger ";
 }
 
 .body-ideas .footer {

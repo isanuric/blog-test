@@ -1,3 +1,17 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0.5rem;
+  // padding: 0.5rem;
+}
+
+p {
+  margin: 0.5rem;
+}
+
 .body-ideas-main-page {
   height: 100vh;
 
@@ -31,20 +45,6 @@
 
 .body-ideas {
   height: 400vh; // push footer to end
-
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    margin: 0.5rem;
-    // padding: 0.5rem;
-  }
-
-  p {
-    margin: 0.5rem;
-  }
 
   .first-title {
     display: flex;
@@ -91,28 +91,25 @@
       font-style: italic;
       padding-top: 1rem;
 
-      .book-name {
+      .nietzsche {
         direction: rtl;
         padding: 0.2rem;
         font-style: oblique;
         font-size: 0.5rem;
         font-weight: bold;
-
-        .nietzsche {
-          &:before {
-            content: "Friedrich Wilhelm Nietzsche, ";
-          }
+        &:before {
+          content: "Nietzsche, ";
         }
+      }
 
-        .heidegger-sz {
-          &::before {
-            content: "Martin Heidegger, Sein und Zeit";
-          }
-        }
-        .heidegger {
-          &::before {
-            content: "Martin Heidegger";
-          }
+      .heidegger {
+        direction: rtl;
+        padding: 0.2rem;
+        font-style: oblique;
+        font-size: 0.5rem;
+        font-weight: bold;
+        &:before {
+          content: "Martin Heidegger, ";
         }
       }
     }
