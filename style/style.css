@@ -467,18 +467,6 @@ p {
   padding: 0.2rem;
 }
 
-.body-ideas a {
-  text-decoration: none;
-}
-
-.body-ideas a:link {
-  color: antiquewhite;
-}
-
-.body-ideas a:visited {
-  color: rgba(154, 154, 154, 0.817);
-}
-
 /* Responsibility */
 @media screen and (max-width: 700px) {
   header {
