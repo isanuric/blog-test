@@ -481,6 +481,9 @@ p {
 
 /* Responsibility */
 @media screen and (max-width: 700px) {
+  header {
+    padding-top: 0.5rem;
+  }
   body main p {
     padding-top: 1rem;
   }
