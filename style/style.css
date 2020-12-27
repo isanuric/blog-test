@@ -205,9 +205,13 @@ a:visited {
   font-size: 0.7rem;
   width: 10rem;
   height: 10rem;
-  margin: 1rem;
-  padding: 1rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
   background-color: #343936da;
+}
+
+.body-index .boxx p {
+  text-align: center;
 }
 
 .body-index .big-title {
