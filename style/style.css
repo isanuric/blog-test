@@ -68,11 +68,11 @@ body main .text .signature {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  padding-left: 2rem;
+  padding-left: 3rem;
   font-size: 0.5rem;
 }
 
-body main .text .signature::before {
+body main .text .signature::after {
   content: "احسانِ سلمانی";
 }
 

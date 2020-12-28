@@ -42,10 +42,10 @@ body {
       .signature {
         direction: ltr;
         justify-content: left;
-        padding-left: 2rem;
+        padding-left: 3rem;
         font-size: 0.5rem;
 
-        &::before {
+        &::after {
           content: "احسانِ سلمانی";
         }
       }
