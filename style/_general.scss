@@ -39,14 +39,6 @@ body {
         }
       }
 
-      .detalis {
-        direction: ltr;
-        justify-content: left;
-        padding-top: 3rem;
-        padding-left: 0rem;
-        font-size: 0.3rem;
-      }
-
       .signature {
         direction: ltr;
         justify-content: left;
@@ -56,6 +48,14 @@ body {
         &::after {
           content: "احسانِ سلمانی";
         }
+      }
+
+      .details {
+        direction: ltr;
+        justify-content: left;
+        padding-top: 1rem;
+        padding-left: 0.5rem;
+        font-size: 0.6rem;
       }
     }
   }

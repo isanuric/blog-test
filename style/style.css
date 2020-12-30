@@ -63,16 +63,6 @@ body main .text p::selection {
   color: white;
 }
 
-body main .text .detalis {
-  direction: ltr;
-  -webkit-box-pack: left;
-      -ms-flex-pack: left;
-          justify-content: left;
-  padding-top: 3rem;
-  padding-left: 0rem;
-  font-size: 0.3rem;
-}
-
 body main .text .signature {
   direction: ltr;
   -webkit-box-pack: left;
@@ -84,6 +74,16 @@ body main .text .signature {
 
 body main .text .signature::after {
   content: "احسانِ سلمانی";
+}
+
+body main .text .details {
+  direction: ltr;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding-top: 1rem;
+  padding-left: 0.5rem;
+  font-size: 0.6rem;
 }
 
 body footer {
