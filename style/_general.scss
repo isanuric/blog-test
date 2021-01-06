@@ -22,7 +22,7 @@ body {
     flex-direction: row;
     justify-content: center;
     white-space: pre; // auto newline
-    font-size: 0.7rem;
+    // font-size: 0.7rem;
 
     .text {
       display: flex;
@@ -30,8 +30,9 @@ body {
       justify-content: center;
 
       p {
-        padding-top: 0.1rem;
-        padding-left: 2.5rem; // push text to center
+        padding-top: 3rem;
+        padding-left: 4rem; // push text to center
+        font-size: 1rem;
 
         &::selection {
           background: rgba(21, 20, 31, 0.808);
@@ -42,7 +43,7 @@ body {
       .signature {
         direction: ltr;
         justify-content: left;
-        padding-left: 3rem;
+        padding-left: 4rem;
         font-size: 0.5rem;
 
         &::after {
@@ -54,7 +55,7 @@ body {
         direction: ltr;
         justify-content: left;
         padding-top: 1rem;
-        padding-left: 0.5rem;
+        padding-left: 1.2rem;
         font-size: 0.6rem;
       }
     }

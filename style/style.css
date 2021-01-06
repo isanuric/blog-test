@@ -32,7 +32,6 @@ body main {
       -ms-flex-pack: center;
           justify-content: center;
   white-space: pre;
-  font-size: 0.7rem;
 }
 
 body main .text {
@@ -49,8 +48,9 @@ body main .text {
 }
 
 body main .text p {
-  padding-top: 0.1rem;
-  padding-left: 2.5rem;
+  padding-top: 3rem;
+  padding-left: 4rem;
+  font-size: 1rem;
 }
 
 body main .text p::-moz-selection {
@@ -68,7 +68,7 @@ body main .text .signature {
   -webkit-box-pack: left;
       -ms-flex-pack: left;
           justify-content: left;
-  padding-left: 3rem;
+  padding-left: 4rem;
   font-size: 0.5rem;
 }
 
@@ -82,7 +82,7 @@ body main .text .details {
       -ms-flex-pack: left;
           justify-content: left;
   padding-top: 1rem;
-  padding-left: 0.5rem;
+  padding-left: 1.2rem;
   font-size: 0.6rem;
 }
 
@@ -476,9 +476,10 @@ p {
 }
 
 /* Responsibility */
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
   body main p {
-    padding-top: 0rem;
+    padding-top: 0rem !important;
+    font-size: 0.7rem !important;
   }
   body footer {
     padding: 0.5rem;

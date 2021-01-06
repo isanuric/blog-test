@@ -1,10 +1,12 @@
 /* Responsibility */
-@media screen and (max-width: 700px) {
+@media only screen and (max-width: 700px) {
+  // @media only screen and (max-device-width: 700px) {
   // poem pages
   body {
     main {
       p {
-        padding-top: 0rem;
+        padding-top: 0rem !important;
+        font-size: 0.7rem !important;
       }
     }
 
