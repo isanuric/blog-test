@@ -1,5 +1,5 @@
 /* Responsibility */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 800px) {
   // poem pages
   body {
     main {
@@ -60,3 +60,15 @@
     }
   }
 }
+
+@media only screen and (max-height: 500px) {
+  body {
+    height: 200vh;
+    background-color: green;
+  }
+}
+
+// @media only screen and (max-hight: 300px) {
+//   height: 100vh;
+//   background-color: green;
+// }
