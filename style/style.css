@@ -524,8 +524,8 @@ p {
 
 @media only screen and (max-height: 500px) {
   body {
-    height: 1500vh;
-    background-color: #4c584c;
+    height: 150vh;
+    background-color: rgba(79, 88, 79, 0.514);
   }
 }
 /*# sourceMappingURL=style.css.map */
