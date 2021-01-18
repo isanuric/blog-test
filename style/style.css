@@ -86,6 +86,15 @@ body main .text .details {
   font-size: 0.6rem;
 }
 
+body main .text .details-right {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 1rem;
+  padding-right: 5rem;
+  font-size: 0.6rem;
+}
+
 body footer {
   width: 100%;
   text-align: center;
