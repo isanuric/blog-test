@@ -80,18 +80,9 @@ p {
       width: 50%;
       font-size: 0.8rem;
       padding-top: 1rem;
-
-      p {
-        // white-space: pre-line;
-        // background-color: aquamarine;
-        // margin-top: 3rem;
-        // padding-top: 50rem;
-        // padding-bottom: 50rem;
-      }
     }
 
     .zitat {
-      // font-size: 10%;
       flex-direction: column;
       width: 40%;
       font-size: 0.7rem;
@@ -104,43 +95,33 @@ p {
         direction: rtl;
       }
 
-      .nietzsche {
+      .author-name {
         direction: rtl;
         padding: 0.4rem;
         font-style: oblique;
         font-size: 0.5rem;
         font-weight: bold;
-        &:before {
-          content: "Nietzsche, ";
-        }
-      }
 
-      .heidegger {
-        direction: rtl;
-        padding: 0.4rem;
-        font-style: oblique;
-        font-size: 0.5rem;
-        font-weight: bold;
-        &:before {
-          content: "Martin Heidegger, ";
+        &.nietzsche {
+          &:before {
+            content: "Nietzsche, ";
+          }
+        }
+
+        &.heidegger {
+          &:before {
+            content: "Martin Heidegger, ";
+          }
         }
       }
     }
 
-    // .zitat-persian {
-    //   flex-direction: column;
-    //   width: 40%;
-    //   font-size: 0.7rem;
-    //   direction: ltr;
-    //   font-style: italic;
-    //   padding-top: 1.5rem;
-    //   direction: rtl;
-    // }
-
-    // ::after {
-    //   content: "\a";
-    //   white-space: pre;
-    // }
+    .footnotes {
+      width: 50%;
+      font-size: 0.6rem;
+      direction: ltr;
+      padding-top: 1.5rem;
+    }
   }
 
   .footer {
@@ -153,5 +134,9 @@ p {
     a {
       padding: 0.2rem;
     }
+  }
+
+  a {
+    font-size: 0.4rem;
   }
 }

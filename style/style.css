@@ -458,7 +458,7 @@ p {
   direction: rtl;
 }
 
-.body-ideas .text-block .zitat .nietzsche {
+.body-ideas .text-block .zitat .author-name {
   direction: rtl;
   padding: 0.4rem;
   font-style: oblique;
@@ -466,20 +466,19 @@ p {
   font-weight: bold;
 }
 
-.body-ideas .text-block .zitat .nietzsche:before {
+.body-ideas .text-block .zitat .author-name.nietzsche:before {
   content: "Nietzsche, ";
 }
 
-.body-ideas .text-block .zitat .heidegger {
-  direction: rtl;
-  padding: 0.4rem;
-  font-style: oblique;
-  font-size: 0.5rem;
-  font-weight: bold;
+.body-ideas .text-block .zitat .author-name.heidegger:before {
+  content: "Martin Heidegger, ";
 }
 
-.body-ideas .text-block .zitat .heidegger:before {
-  content: "Martin Heidegger, ";
+.body-ideas .text-block .footnotes {
+  width: 50%;
+  font-size: 0.6rem;
+  direction: ltr;
+  padding-top: 1.5rem;
 }
 
 .body-ideas .footer {
@@ -490,6 +489,10 @@ p {
 
 .body-ideas .footer a {
   padding: 0.2rem;
+}
+
+.body-ideas a {
+  font-size: 0.4rem;
 }
 
 /* Responsibility */
