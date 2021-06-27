@@ -62,11 +62,10 @@ p {
     flex-direction: row;
     align-items: center; // y-achse
     justify-content: center; // x-achse
-    height: 5rem;
-    width: 100%;
+    height: 2rem;
+    width: 50%;
     margin-top: 1rem;
-    text-transform: uppercase;
-    background-color: rgba(71, 70, 68, 0.87);
+    background-color: rgba(121, 120, 118, 0.87);
     color: rgb(221, 221, 221);
   }
 
@@ -81,15 +80,29 @@ p {
       width: 50%;
       font-size: 0.8rem;
       padding-top: 1rem;
+
+      p {
+        // white-space: pre-line;
+        // background-color: aquamarine;
+        // margin-top: 3rem;
+        // padding-top: 50rem;
+        // padding-bottom: 50rem;
+      }
     }
 
     .zitat {
+      // font-size: 10%;
       flex-direction: column;
       width: 40%;
       font-size: 0.7rem;
       direction: ltr;
       font-style: italic;
       padding-top: 1.5rem;
+
+      .zitat-persian {
+        padding-top: 0.5rem;
+        direction: rtl;
+      }
 
       .nietzsche {
         direction: rtl;
@@ -113,6 +126,21 @@ p {
         }
       }
     }
+
+    // .zitat-persian {
+    //   flex-direction: column;
+    //   width: 40%;
+    //   font-size: 0.7rem;
+    //   direction: ltr;
+    //   font-style: italic;
+    //   padding-top: 1.5rem;
+    //   direction: rtl;
+    // }
+
+    // ::after {
+    //   content: "\a";
+    //   white-space: pre;
+    // }
   }
 
   .footer {
