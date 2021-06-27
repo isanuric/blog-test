@@ -116,11 +116,16 @@ p {
       }
     }
 
+    // used for footnotes calling in text
+    a {
+      font-size: 0.5rem;
+      font-style: italic;
+    }
     .footnotes {
       width: 50%;
       font-size: 0.6rem;
       direction: ltr;
-      padding-top: 1.5rem;
+      padding-top: 10rem;
     }
   }
 
@@ -130,10 +135,6 @@ p {
     // min-height: 1rem;
     padding: 1rem;
     // background-color: #d106d8;
-
-    a {
-      padding: 0.2rem;
-    }
   }
 
   a {

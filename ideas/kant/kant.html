@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-    <div id="header"></div>
-</head>
+<div id="header"></div>
 
 <body class="body-ideas">
 
@@ -63,8 +61,6 @@
             </div>
         </div>
 
-        <div class="big-title">ادامه دارد</div>
-
         <div class="footnotes">
             <id id="f01">[1] Was kann ich wissen?</id> <br>
             <id id="f02">[2] Was soll ich tun?</id> <br>
@@ -88,24 +84,19 @@
             <!-- <id id="f20">[20] .</id> <br> -->
         </div>
 
-        <footer>
-            <ul>
-                <li><a href=#><img src="../images/icons/iconfinder_SocialMedia_Twitter-Outline_2959740.png"
-                            alt="aaa"></a>
-                <li><a href="https://www.instagram.com/ehsan.salmani.poetry"><img src="../images/icons/instagram.png"
-                            alt="aaa"></a>
-                </li>
-            </ul>
+        <div class="big-title">ادامه دارد</div>
 
-            <p>copyright &copy ehsan salmani |
-                <script>document.write(new Date().getFullYear())</script>
-            </p>
+        <footer>
+            <div id="footer"></div>
         </footer>
 </body>
 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script> $(function () { $("#header").load("../../html/header.html") });</script>
+<script> $(function () {
+        $("#header").load("../../html/header.html");
+        $("#footer").load("../../html/footer.html")
+    });</script>
 
 </html>

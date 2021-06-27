@@ -474,21 +474,22 @@ p {
   content: "Martin Heidegger, ";
 }
 
+.body-ideas .text-block a {
+  font-size: 0.5rem;
+  font-style: italic;
+}
+
 .body-ideas .text-block .footnotes {
   width: 50%;
   font-size: 0.6rem;
   direction: ltr;
-  padding-top: 1.5rem;
+  padding-top: 10rem;
 }
 
 .body-ideas .footer {
   text-align: center;
   font-size: 0.5rem;
   padding: 1rem;
-}
-
-.body-ideas .footer a {
-  padding: 0.2rem;
 }
 
 .body-ideas a {
