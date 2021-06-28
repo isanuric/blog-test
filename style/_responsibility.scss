@@ -81,6 +81,10 @@
 @media only screen and (max-height: 500px) {
   body {
     height: 150vh;
-    background-color: rgba(16, 207, 16, 0.198);
+  }
+  .text-block {
+    .footnotes {
+      width: 90%;
+    }
   }
 }
