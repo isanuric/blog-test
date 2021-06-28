@@ -58,6 +58,10 @@
       }
     }
 
+    .big-title {
+      width: 90%;
+    }
+
     .text-block {
       .text {
         width: 90%;
@@ -74,6 +78,6 @@
 @media only screen and (max-height: 500px) {
   body {
     height: 150vh;
-    background-color: rgba(145, 149, 145, 0.198);
+    background-color: rgba(16, 207, 16, 0.198);
   }
 }

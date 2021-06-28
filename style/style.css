@@ -540,6 +540,9 @@ p {
   .body-ideas .first-title .sub-title {
     font-size: 0.4rem;
   }
+  .body-ideas .big-title {
+    width: 90%;
+  }
   .body-ideas .text-block .text {
     width: 90%;
     font-size: 0.65rem;
@@ -553,7 +556,7 @@ p {
 @media only screen and (max-height: 500px) {
   body {
     height: 150vh;
-    background-color: rgba(145, 149, 145, 0.198);
+    background-color: rgba(16, 207, 16, 0.198);
   }
 }
 /*# sourceMappingURL=style.css.map */
